@@ -1,0 +1,36 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local project metadata
+anaconda_projects/
+**/anaconda_projects/
+virtual_documents/
+**/virtual_documents/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+"@ | Set-Content -Encoding UTF8 .gitignore
